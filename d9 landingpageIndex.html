@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="d9 landingstyles.css">
+    <link rel="stylesheet" href="d9 animation.css">
+
+</head>
+
+<body>
+    <div class="container wholediv">
+        <div class="row" id="nav-div">
+            <i class="fa fa-whatsapp"></i>
+            <h3><a href="#" class="nav-item"> Whats app</a></h3>
+            <div class="navbar">
+              <ul class="nav">
+                <li class="nav-item aboutwhatsapp" id="whatsapp">
+                    <a class="nav-link" href="https://web.whatsapp.com" target="_self">WhatsApp Web</a>
+                </li>
+                <div class="navfeatures">
+                <li class="nav-item ">
+                    <a class="nav-link" id="featuresnav" href="#features">Features</a>
+                </li>
+                </div>
+                
+                <div class="vertical">
+                <li class="nav-item  ">
+                    <a class="nav-link" href="">|</a>
+                </li>
+                </div>
+                
+                <div class="contact">
+                <li class="nav-item ">
+                    <a class="nav-link" id="contactnav" href="#">Contact Us</a>
+                </li>
+                </div>
+            </ul>
+            </div>
+        </div>
+        
+        <div class="row second-row" id="second-div">
+           <div class="col-md-1"></div>
+           
+           <div class="col-md-5" id="features" style="display: none">
+              <h2>Simple, Reliable Messaging</h2>
+                <p>Message your friends and family for free*. WhatsApp uses your phone's Internet connection to send messages so you can avoid SMS fees.</p>
+           </div>
+           
+            <div class="col-md-5" id="contactus" style="display: none">
+               <h2> Design & User Experience </h2>
+                    <p>Researcher, Business Product Team <br>
+                    Product Designer<br>
+                    Researcher<br>
+                    Product Designer - WhatsApp</p>
+            </div>
+            
+           
+            <div class="col-md-5 landingtext" id="landingtext1">
+                <h2>Lets make messaging more fun</h2>
+                <p class="landingpara"> With the new emoji features staying connected is more fun than ever! Share this new love with Whats App</p>
+                <div class="form-group">
+                <input type="submit" id="download" value="Click Here to download" class="btn btn-success forn-control">
+                </div>
+                </div>
+                
+            <div class="col-md-2 emojis">
+                <div class="img1">😂</div>
+                <div class="img2">😄</div>
+                <div class="img3">😡</div>
+                <div class="img4">😍</div>
+                <div class="img5">🙄</div> 
+                <div class="img6">😍</div>
+                <div class="img7">😡</div>
+                <div class="img8">😄</div>
+                <div class="img9">😂</div>
+                <div class="img10">😡</div>
+            </div>
+            
+            <div class="col-md-4">
+                <img src="Images/Whatsapp-Emoji-1.webp" width="88%" height="110%;">
+            </div> 
+        </div>
+    </div>
+
+</body>
+<script>
+$(".img1").mouseover(function(){
+    $(".img1").css("font-size", "65px");
+    $(".img1").mouseleave(function(){
+    $(".img1").css("font-size", "27px");
+    });
+});
+    $(".img2").mouseover(function(){
+    $(".img2").css("font-size", "65px");
+    $(".img2").mouseleave(function(){
+    $(".img2").css("font-size", "27px");
+    });
+});
+    $(".img3").mouseover(function(){
+    $(".img3").css("font-size", "65px");
+    $(".img3").mouseleave(function(){
+    $(".img3").css("font-size", "27px");
+    });
+});
+    $(".img4").mouseover(function(){
+    $(".img4").css("font-size", "65px");
+    $(".img4").mouseleave(function(){
+    $(".img4").css("font-size", "27px");
+    });
+});
+    $(".img5").mouseover(function(){
+    $(".img5").css("font-size", "65px");
+    $(".img5").mouseleave(function(){
+    $(".img5").css("font-size", "27px");
+    });
+});
+    $(".img6").mouseover(function(){
+    $(".img6").css("font-size", "65px");
+    $(".img6").mouseleave(function(){
+    $(".img6").css("font-size", "27px");
+    });
+});
+    $(".img7").mouseover(function(){
+    $(".img7").css("font-size", "65px");
+    $(".img7").mouseleave(function(){
+    $(".img7").css("font-size", "27px");
+    });
+});
+    $(".img8").mouseover(function(){
+    $(".img8").css("font-size", "65px");
+    $(".img8").mouseleave(function(){
+    $(".img8").css("font-size", "27px");
+    });
+});
+    $(".img9").mouseover(function(){
+    $(".img9").css("font-size", "65px");
+    $(".img9").mouseleave(function(){
+    $(".img9").css("font-size", "27px");
+    });
+});
+    $(".img10").mouseover(function(){
+    $(".img10").css("font-size", "65px");
+    $(".img10").mouseleave(function(){
+    $(".img10").css("font-size", "27px");
+    });
+});
+    
+    $("#featuresnav").click(function(){
+        $("#landingtext1").hide();
+        $("#contactus").hide();
+        $("#features").show();
+    });
+    
+    $("#contactnav").click(function(){
+        $("#landingtext1").hide();
+        $("#features").hide();
+        $("#contactus").show();
+    });
+</script>
+
+</html>

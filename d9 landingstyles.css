@@ -1,0 +1,175 @@
+body {
+    margin-top:5%;
+}
+.wholediv {
+    width: 55%;
+    /*border: 2px solid;*/
+    margin-top: 2%;
+    padding-top: 3%;
+    padding-right:  2%;
+    padding-bottom:  7%;
+    padding-left:  1%;
+    background-image: linear-gradient(#00ff43, #e8fc49);
+    box-shadow: 0px 24px 22px -12px black;
+}
+
+.fa {
+    font-size: 45px;
+    color: white;
+    /*background: #11d311;
+    border-radius: 50%;*/
+    margin-left: 10%;
+    width: 47px;
+    margin-top:1%;    
+}
+
+h3 {
+    margin-top: 1.5%;
+    margin-left: 1%;
+    color: white;
+}
+h3:hover {
+    color:red;
+    
+}
+
+.navbar {
+   margin-left: 14%; 
+    font-size: 16px;
+    margin-top: 6px;
+}
+
+a {
+    color: white;
+}
+
+a.nav-link:hover {
+    color:red;
+    font-size:18px;
+}
+
+.second-row {
+    margin-top:7%;
+}
+
+.landingtext {
+    margin-top: 6%;
+}
+
+h2 {
+    color: #1fba24;
+}
+
+.emojis {
+margin-top: 3%;
+}
+    
+.img1 {
+    font-size: 27px;
+    margin-bottom: -10%;
+    position: relative;
+    animation-name: emoji1;
+    animation-duration:13s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: linear;
+}
+
+.img2 {
+    margin-bottom: -10%;
+    margin-left: 36%;
+    font-size: 27px;
+    position: relative;
+    animation-name: emoji2;
+    animation-duration:13s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: linear;
+}
+.img3 {
+    font-size: 27px;
+    position: relative;
+    animation-name: emoji3;
+    animation-duration:13s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: linear;
+}
+.img4 {
+    margin-bottom: -10%;
+    margin-left: 36%;
+    font-size: 27px;
+    margin-top: -8%;
+    position: relative;
+    animation-name: emoji4;
+    animation-duration:13s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: linear;
+}
+.img5 {
+    font-size: 27px;
+    position: relative;
+    animation-name: emoji5;
+    animation-duration:13s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: linear;
+}
+.img6 {
+    margin-bottom: -10%;
+    margin-left: 36%;
+    font-size: 27px;
+    margin-top: -8%;
+    position: relative;
+    animation-name: emoji6;
+    animation-duration:13s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: linear;
+    
+}
+.img7 {
+    font-size: 27px;
+    position: relative;
+    animation-name: emoji7;
+    animation-duration:13s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: linear;
+}
+.img8 {
+    margin-bottom: -10%;
+    margin-left: 36%;
+    font-size: 27px;
+    margin-top: -8%;
+    position: relative;
+    animation-name: emoji8;
+    animation-duration:13s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: linear;
+}
+.img9 {
+    font-size: 27px;
+    position: relative;
+    animation-name: emoji9;
+    animation-duration:13s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: linear;
+}
+.img10 {
+    margin-bottom: -10%;
+    margin-left: 36%;
+    font-size: 27px;
+    margin-top: -8%;
+    position: relative;
+    animation-name: emoji10;
+    animation-duration:13s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: linear;
+}
+
+
