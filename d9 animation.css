@@ -1,0 +1,73 @@
+@keyframes emoji1 {
+    0%   {left:0px; top:0px;}
+    25% { left:45px; top:0px;}
+    50% { left:45px; top:30px;}
+    75% { left:0px; top:30px;}
+    100% {left:0px; top:0px;}
+}
+@keyframes emoji2 {
+    0%   {left:0px; top:0px;}
+    25% { left:-45px; top:0px;}
+    50% { left:-45px; top:-35px;}
+    75% { left:0px; top:-35px;}
+    100% {left:0px; top:0px;}
+}
+
+@keyframes emoji3 {
+    0%   {left:0px; top:0px;}
+    25% { left:45px; top:0px;}
+    50% { left:45px; top:30px;}
+    75% { left:0px; top:30px;}
+    100% {left:0px; top:0px;}
+}
+
+@keyframes emoji4 {
+    0%   {left:0px; top:0px;}
+    25% { left:-45px; top:0px;}
+    50% { left:-45px; top:-35px;}
+    75% { left:0px; top:-35px;}
+    100% {left:0px; top:0px;}
+}
+
+@keyframes emoji5 {
+    0%   {left:0px; top:0px;}
+    25% { left:45px; top:0px;}
+    50% { left:45px; top:30px;}
+    75% { left:0px; top:30px;}
+    100% {left:0px; top:0px;}
+}
+@keyframes emoji6 {
+    0%   {left:0px; top:0px;}
+    25% { left:-45px; top:0px;}
+    50% { left:-45px; top:-35px;}
+    75% { left:0px; top:-35px;}
+    100% {left:0px; top:0px;}
+}
+@keyframes emoji7 {
+     0%   {left:0px; top:0px;}
+    25% { left:45px; top:0px;}
+    50% { left:45px; top:30px;}
+    75% { left:0px; top:30px;}
+    100% {left:0px; top:0px;}
+}
+@keyframes emoji8 {
+    0%   {left:0px; top:0px;}
+    25% { left:-45px; top:0px;}
+    50% { left:-45px; top:-35px;}
+    75% { left:0px; top:-35px;}
+    100% {left:0px; top:0px;}
+}
+@keyframes emoji9 {
+     0%   {left:0px; top:0px;}
+    25% { left:45px; top:0px;}
+    50% { left:45px; top:30px;}
+    75% { left:0px; top:30px;}
+    100% {left:0px; top:0px;}
+}
+@keyframes emoji10 {
+    0%   {left:0px; top:0px;}
+    25% { left:-45px; top:0px;}
+    50% { left:-45px; top:-35px;}
+    75% { left:0px; top:-35px;}
+    100% {left:0px; top:0px;}
+}
